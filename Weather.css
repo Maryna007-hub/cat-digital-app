@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Weather {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 21px auto;
+    max-width: 600px;
+}
+.Weather h1 {
+color: rgb(66, 66, 66);
+font-size: 24px;
+font-weight: 100;
+line-height: 29px;
+}
