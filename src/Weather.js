@@ -7,7 +7,7 @@ import {
   } from '@iconscout/react-unicons';
   import  axios  from "axios";
 
- export default function Weather() {
+ export default function Weather(props) {
     const [weatherData, setWeatherData ] = useState({ ready: false });
    
 
