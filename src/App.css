@@ -1,3 +1,8 @@
 .App {
-    color: darkblue;
+    max-width: 600px;
+    margin: 10px auto;
+}
+.App footer {
+    font-size: 12px;
+    margin: 3px 0;
 }
