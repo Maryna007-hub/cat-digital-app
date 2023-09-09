@@ -4,15 +4,14 @@ body {
 }
 
 .Weather {
-    border: 1px solid gray;
+    border: 1px solid darkblue;
     border-radius: 5px;
     margin: 21px auto;
     max-width: 600px;
 }
 .Weather h1 {
-color: rgb(66, 66, 66);
 font-size: 24px;
-font-weight: 300;
+font-weight: 500;
 line-height: 29px;
 }
 .tear {
@@ -21,10 +20,13 @@ line-height: 29px;
 .wind {
     color: blue;
 }
-.Weather h2 hr {
-    color: rgb(66, 66, 66);
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 29px;
+.Weather h2  {
+   font-size: 20px;
+    font-weight: 400;
     text-align: center;
     }
+    .Weather hr {
+       text-align: center;
+       max-width: 550px;
+       padding: 10px 0 10px 0;
+        }

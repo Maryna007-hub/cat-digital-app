@@ -37,13 +37,15 @@ import {
         <UilWind size={19} className='wind'/>  Wind: 12 km/h
         </li>
     </ul>
-    <div className='row'>
-        <div className='col'>
-           <h2>Daily Temperature Evaluation</h2>
-            <hr/>
-        </div>
     </div>
-    </div>
+     <h2>Daily Temperature Evaluation</h2>
+  
+      <div className="row">
+  <       div className="col">   
+             Chart
+          </div>
+      </div>
+
   </div>
   </div>
 )
