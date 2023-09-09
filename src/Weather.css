@@ -12,7 +12,7 @@ body {
 .Weather h1 {
 color: rgb(66, 66, 66);
 font-size: 24px;
-font-weight: 100;
+font-weight: 300;
 line-height: 29px;
 }
 .tear {
@@ -21,3 +21,10 @@ line-height: 29px;
 .wind {
     color: blue;
 }
+.Weather h2 hr {
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    }
