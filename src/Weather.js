@@ -3,6 +3,7 @@ import './Weather.css';
 import {
     UilTear,
     UilWind,
+    UilLocationPoint
   } from '@iconscout/react-unicons';
   import  axios  from "axios";
 
@@ -21,13 +22,19 @@ function handleResponse(response) {
     <div className='Weather'>
           <form>
         <div className="row">
-          <div className="col-9">
-            <input type="search" placeholder="Search a city" className="form-control" autoComplete="off"/>
+          <div className="col-6">
+            <input type="search" placeholder="Search a city" 
+            className="form-control" autoComplete="off"/>
           </div>
           <div className="col-3">
            <input type="submit" value="Search" className="btn btn-primary w-100" 
            autoFocus='on' />
-          </div>
+           </div>
+           <div className="col-3">
+           <button className="btn btn-primary w-100" autoFocus='on' >
+            Current <UilLocationPoint size={18}/></button> 
+         
+           </div>
         </div>
       </form>
         <h1>London</h1> 
