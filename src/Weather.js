@@ -6,6 +6,7 @@ import {
     UilLocationPoint
   } from '@iconscout/react-unicons';
    import  axios  from "axios";
+   import FormattedDate from './FormattedDate';
 
  export default function Weather(props) {
     const [weatherData, setWeatherData ] = useState({ ready: false });
@@ -48,7 +49,7 @@ if (weatherData.ready) {
       </form>
         <h1>{weatherData.city}</h1> 
    <ul>
-    <li>{weatherData.date.getDay()}</li>
+    <li><FormattedDate date={weatherData.date}/></li>
     <li className='text-capitalize'>{weatherData.description}</li>
    </ul>
    <div className="row mt-3">
