@@ -22,7 +22,7 @@ humidity: response.data.main.humidity,
 iconUrl: 'https://openweathermap.org/img/wn/01n@2x.png',
 description: response.data.weather[0].description,
 city: response.data.name,
-date: 'Monday 23:01'
+date: new Date(response.data.dt * 1000)
 });
     
 }
@@ -48,7 +48,7 @@ if (weatherData.ready) {
       </form>
         <h1>{weatherData.city}</h1> 
    <ul>
-    <li>{weatherData.date}</li>
+    <li>{weatherData.date.getDay()}</li>
     <li className='text-capitalize'>{weatherData.description}</li>
    </ul>
    <div className="row mt-3">
